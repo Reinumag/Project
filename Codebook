@@ -1,0 +1,206 @@
+Course project codebook
+========================================================
+
+subjectID
+  Numeric subject key
+  
+activity
+  Character activity label, 6 levels
+  
+tBodyAcc.mean.X
+  Numeric, mean acceleration on X axis
+  
+tBodyAcc.mean.Y
+  Numeric, mean acceleration on Y axis
+  
+tBodyAcc.mean.Z
+  Numeric, mean acceleration on Z axis
+  
+tBodyAcc.std.X
+  Numeric, std acceleration on X axis
+
+tBodyAcc.std.Y
+  Numeric, std acceleration on Y axis
+
+tBodyAcc.std.Z
+  Numeric, std acceleration on Z axis
+
+tGravityAcc.mean.X
+  Numeric, mean acceleration on X axis
+
+tGravityAcc.mean.Y
+  Numeric, mean acceleration on Y axis
+
+tGravityAcc.mean.Z
+  Numeric, mean acceleration on Z axis
+
+tGravityAcc.std.X
+  Numeric, std of acceleration on X axis
+
+tGravityAcc.std.Y
+  Numeric, std of acceleration on Y axis
+
+tGravityAcc.std.Z
+  Numeric, std of acceleration on Z axis
+
+tBodyAccJerk.mean.X
+  Numeric, mean acceleration on X axis
+
+tBodyAccJerk.mean.Y
+  Numeric, mean acceleration on Y axis
+
+tBodyAccJerk.mean.Z
+  Numeric, mean acceleration on Z axis
+
+tBodyAccJerk.std.X
+  Numeric, std of acceleration on X axis
+
+tBodyAccJerk.std.Y
+  Numeric, std of acceleration on Y axis
+
+tBodyAccJerk.std.Z
+  Numeric, std of acceleration on Z axis
+
+tBodyGyro.mean.X
+  Numeric, mean acceleration on X axis
+
+tBodyGyro.mean.Y
+  Numeric, mean acceleration on Y axis
+
+tBodyGyro.mean.Z
+  Numeric, mean acceleration on Z axis
+
+tBodyGyro.std.X
+  Numeric, std on X axis
+
+tBodyGyro.std.Y
+  Numeric, std on Y axis
+
+tBodyGyro.std.Z
+  Numeric, std on Z axis
+
+tBodyGyroJerk.mean.X
+  Numeric, mean on X axis
+
+tBodyGyroJerk.mean.Y
+  Numeric, mean on Y axis
+
+tBodyGyroJerk.mean.Z
+  Numeric, mean on Z axis
+
+tBodyGyroJerk.std.X
+  Numeric, std on X axis
+
+tBodyGyroJerk.std.Y
+  Numeric, std on Y axis
+
+tBodyGyroJerk.std.Z
+  Numeric, std on Z axis
+
+tBodyAccMag.mean
+  Numeric, mean
+
+tBodyAccMag.std
+  Numeric, std
+
+tGravityAccMag.mean
+  Numeric, mean
+
+tGravityAccMag.std
+  Numeric, std
+
+tBodyAccJerkMag.mean
+  Numeric, mean
+
+tBodyAccJerkMag.std
+  Numeric, std
+
+tBodyGyroMag.mean
+  Numeric, mean
+
+tBodyGyroMag.std
+  Numeric, std
+
+tBodyGyroJerkMag.mean
+  Numeric, mean
+
+tBodyGyroJerkMag.std
+  Numeric, std
+
+fBodyAcc.mean.X
+  Numeric, mean on X axis
+
+fBodyAcc.mean.Y
+  Numeric, mean on X axis
+  
+fBodyAcc.mean.Z
+  Numeric, mean on X axis
+  
+fBodyAcc.std.X
+  Numeric, std
+
+fBodyAcc.std.Y
+  Numeric, std
+
+fBodyAcc.std.Z
+  Numeric, std
+
+fBodyAccJerk.mean.X
+  Numeric, mean on X axis
+  
+fBodyAccJerk.mean.Y
+  Numeric, mean on X axis
+  
+fBodyAccJerk.mean.Z
+  Numeric, mean on X axis
+  
+fBodyAccJerk.std.X
+  Numeric, std
+
+fBodyAccJerk.std.Y
+  Numeric, std
+
+fBodyAccJerk.std.Z
+  Numeric, std
+
+fBodyGyro.mean.X
+  Numeric, mean on X axis
+  
+fBodyGyro.mean.Y
+  Numeric, mean on X axis
+  
+fBodyGyro.mean.Z
+  Numeric, mean on X axis
+  
+fBodyGyro.std.X
+  Numeric, std
+
+fBodyGyro.std.Y
+  Numeric, std
+
+fBodyGyro.std.Z
+  Numeric, std
+
+fBodyAccMag.mean
+  Numeric, mean
+  
+fBodyAccMag.std
+  Numeric, std
+
+fBodyBodyAccJerkMag.mean
+  Numeric, mean
+  
+fBodyBodyAccJerkMag.std
+  Numeric, std
+
+fBodyBodyGyroMag.mean
+  Numeric, mean
+  
+fBodyBodyGyroMag.std
+  Numeric, std
+
+fBodyBodyGyroJerkMag.mean
+  Numeric, mean
+  
+fBodyBodyGyroJerkMag.std
+  Numeric, std
