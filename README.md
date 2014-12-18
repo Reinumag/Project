@@ -1,4 +1,4 @@
-Getting and cleaning data course prject
+Getting and cleaning data course project
 =======
 
 Run_analysis function reads unzipped data from text files in <./UCI HAR Dataset> folder.
