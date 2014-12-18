@@ -47,7 +47,7 @@ run_analysis <- function(){
   trainActivities <- join(trainActivities, activities, by = "activityID")
   
   ##
-  # Merging test and training sets. Fulfils task #1
+  # Preparing data sets for merging.  
   ##
   
   # Reading test data, naming columns, inserting activity labels to the left 
@@ -75,11 +75,9 @@ run_analysis <- function(){
   names(trainSubjects) <- "subjectID"
   trainData <- cbind(trainSubjects,trainData)
   
-  #actual merging of test and train data
+  #actual merging of test and train data. Fulfils task #1
   uciharData <- rbind(testData,trainData)
-  # drop unneeded partial datasets from memory
-  rm(testData, trainData,features)
-  rm(testActivities,testSubjects,trainActivities, trainSubjects)
+
   
   ##
   # Subsetting only variables containing mean() and std() in their names
@@ -111,7 +109,18 @@ run_analysis <- function(){
   #then, activity labels sbould be introdced again
   uciharClean <- join(uciharClean, activities, by = "activityID")
   uciharClean <- uciharClean[c(1:2,69,3:68)]
-  write.table(uciharClean,"uciharClean.txt",row.names = FALSE)
+  
+  #modifying variable names into better format
+  newNames <- names(uciharClean)
+  newNames <- gsub('-','.',newNames)
+  newNames <- gsub('()','',newNames,fixed=TRUE)
+  names(uciharClean) <- newNames
+  
+  # drop activity ID as it is reduntant with activity also present
+  uciharClean <- uciharClean[,2]
+  
+  # passing the output
+  write.table(uciharClean,"uciharClean.txt",row.name = FALSE)
   uciharClean
 }
 
