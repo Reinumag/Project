@@ -2,7 +2,7 @@ Getting and cleaning data course prject
 =======
 
 Run_analysis function reads unzipped data from text files in <./UCI HAR Dataset> folder.
-The function attaches column names to data and adds subjectID and activity data to 
+The function attaches column names to data and adds subject and activity information to 
 both test and training sets. Unneeded variables are dropped.
 Test and training sets are merged into a single complete dataframe. 
 
